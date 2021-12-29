@@ -1,0 +1,30 @@
+---
+canvas: "https://fontesistrie.eu/sites/default/files/dzi/1035_CC/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Crismon",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T10:51:11.513Z",
+            "modified": "2021-12-29T10:51:12.955Z"
+        }
+    ],
+    "target": {
+        "source": "https://fontesistrie.eu/sites/default/files/dzi/1035_CC/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:57.29315185546875,119.07839965820312,95.61985778808594,207.7666015625"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2d2fffaa-b543-4695-bd7f-429350319898.json"
+}
