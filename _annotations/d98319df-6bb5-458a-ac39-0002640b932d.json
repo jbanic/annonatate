@@ -1,0 +1,43 @@
+---
+canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
+order: 27
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ponte Sonti (Mainizza)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T13:01:36.963Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "City",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T13:01:39.352Z",
+            "modified": "2021-12-29T13:01:39.890Z"
+        }
+    ],
+    "target": {
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"280.4,434 278.3,463 318,463.8 376.7,465.5 434.4,460.9 430.2,433\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "d98319df-6bb5-458a-ac39-0002640b932d.json"
+}
