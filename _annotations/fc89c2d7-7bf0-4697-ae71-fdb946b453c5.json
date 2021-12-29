@@ -3,42 +3,42 @@ canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/ca
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Alvona (present-day Labin / Albona)",
-            "purpose": "supplementing",
+            "created": "2021-12-29T11:08:12.548Z",
             "creator": {
                 "id": "jbanic",
                 "name": "jbanic"
             },
-            "created": "2021-12-29T11:08:12.548Z",
-            "modified": "2021-12-29T11:08:30.559Z"
+            "modified": "2021-12-29T11:08:30.559Z",
+            "purpose": "supplementing",
+            "type": "TextualBody",
+            "value": "Alvona (present-day Labin / Albona)"
         },
         {
             "type": "TextualBody",
-            "value": "civitas",
+            "value": "City",
             "purpose": "tagging",
             "creator": {
                 "id": "jbanic",
                 "name": "jbanic"
             },
-            "created": "2021-12-29T11:08:32.810Z",
-            "modified": "2021-12-29T11:08:33.685Z"
+            "created": "2021-12-29T12:01:33.924Z",
+            "modified": "2021-12-29T12:01:35.671Z"
         }
     ],
+    "id": "fc89c2d7-7bf0-4697-ae71-fdb946b453c5.json",
     "target": {
-        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1372,704.6 1417.1,704.6 1474.7,709.4 1483.8,746.6 1366.2,742.4\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fc89c2d7-7bf0-4697-ae71-fdb946b453c5.json"
+    "type": "Annotation"
 }
