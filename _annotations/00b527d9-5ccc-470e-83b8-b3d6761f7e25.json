@@ -1,0 +1,30 @@
+---
+canvas: "https://fontesistrie.eu/sites/default/files/dzi/1035_CC/info.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Monogram",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T10:51:34.188Z",
+            "modified": "2021-12-29T10:51:36.027Z"
+        }
+    ],
+    "target": {
+        "source": "https://fontesistrie.eu/sites/default/files/dzi/1035_CC/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1536.4149169921875,2155.072021484375,377.950927734375,403.408935546875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "00b527d9-5ccc-470e-83b8-b3d6761f7e25.json"
+}
