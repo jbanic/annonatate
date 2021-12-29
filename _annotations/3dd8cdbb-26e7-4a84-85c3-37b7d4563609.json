@@ -1,0 +1,44 @@
+---
+canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
+order: 9
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Fonte Timavi (Monfalcone)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:07:11.644Z",
+            "modified": "2021-12-29T12:07:16.381Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "City",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:07:18.720Z",
+            "modified": "2021-12-29T12:07:20.085Z"
+        }
+    ],
+    "target": {
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"441.7266540527344,471.03900146484375 284.0520935058594,471.804443359375 284.0520935058594,507.7787170410156 259.5589904785156,569.0115356445312 262.6206359863281,605.751220703125 404.9869689941406,608.8128662109375 427.94927978515625,573.60400390625 434.83795166015625,531.5064086914062 442.4920654296875,507.7787170410156 457.8002624511719,497.828369140625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3dd8cdbb-26e7-4a84-85c3-37b7d4563609.json"
+}
