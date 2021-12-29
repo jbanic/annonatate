@@ -1,0 +1,44 @@
+---
+canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
+order: 23
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Insula Pullaria (Brijuni / Brioni)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:26:46.890Z",
+            "modified": "2021-12-29T12:26:58.890Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Island",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:27:02.831Z",
+            "modified": "2021-12-29T12:27:04.081Z"
+        }
+    ],
+    "target": {
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1075.337646484375,861.3982543945312 1249.15576171875,874.4892578125 1253.5194091796875,905.0346069335938 1197.5194091796875,915.2164306640625 1145.883056640625,955.2164916992188 1082.6103515625,915.9437255859375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e2e195dd-da9b-44cd-8ec6-b72df62c56f6.json"
+}
