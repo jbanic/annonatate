@@ -3,42 +3,42 @@ canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/ca
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Tarsatica (present-day Trsat / Tersatto)",
-            "purpose": "supplementing",
+            "created": "2021-12-29T11:06:12.692Z",
             "creator": {
                 "id": "jbanic",
                 "name": "jbanic"
             },
-            "created": "2021-12-29T11:06:12.692Z",
-            "modified": "2021-12-29T11:07:18.915Z"
+            "modified": "2021-12-29T12:01:43.333Z",
+            "purpose": "supplementing",
+            "type": "TextualBody",
+            "value": "Tarsatica (Trsat / Tersatto)"
         },
         {
             "type": "TextualBody",
-            "value": "civitas",
+            "value": "City",
             "purpose": "tagging",
             "creator": {
                 "id": "jbanic",
                 "name": "jbanic"
             },
-            "created": "2021-12-29T11:06:27.129Z",
-            "modified": "2021-12-29T11:06:28.581Z"
+            "created": "2021-12-29T12:01:48.404Z",
+            "modified": "2021-12-29T12:01:49.816Z"
         }
     ],
+    "id": "9e541d19-4409-4abb-af3c-8719992cdc7a.json",
     "target": {
-        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1650.7,755.1 1651.5,754 1506,766.7 1509.6,796.6 1534.4,814 1532.2,854 1596.2,855.5 1608.5,835.8 1610.7,809.6 1659.5,781.3 1659.5,779.1\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9e541d19-4409-4abb-af3c-8719992cdc7a.json"
+    "type": "Annotation"
 }
