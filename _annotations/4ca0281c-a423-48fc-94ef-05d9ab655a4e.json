@@ -1,0 +1,44 @@
+---
+canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
+order: 25
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Insula S[ep]omaia (Umag / Umago)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:56:59.336Z",
+            "modified": "2021-12-29T12:57:53.334Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Island",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:57:58.045Z",
+            "modified": "2021-12-29T12:57:59.575Z"
+        }
+    ],
+    "target": {
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"529.2,739.9 532.8,785 570.6,795.6 577.9,821 627.3,832.3 644.1,818.5 650.6,785 679,790.9 688.4,793 700.8,783.6 699.3,772.7 680.4,763.2 657.9,751.6 613.5,744.3\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "4ca0281c-a423-48fc-94ef-05d9ab655a4e.json"
+}
