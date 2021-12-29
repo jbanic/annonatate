@@ -7,14 +7,14 @@ order: 2
     "body": [
         {
             "type": "TextualBody",
-            "value": "Tarsatica",
+            "value": "Tarsatica (present-day Trsat / Tersatto)",
             "purpose": "supplementing",
             "creator": {
                 "id": "jbanic",
                 "name": "jbanic"
             },
             "created": "2021-12-29T11:06:12.692Z",
-            "modified": "2021-12-29T11:06:18.622Z"
+            "modified": "2021-12-29T11:07:18.915Z"
         },
         {
             "type": "TextualBody",
