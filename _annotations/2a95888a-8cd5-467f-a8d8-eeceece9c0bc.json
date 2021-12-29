@@ -1,0 +1,44 @@
+---
+canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
+order: 19
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Quaeri = [A]quae Ri[sani] (Koper / Capodistria)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:21:19.203Z",
+            "modified": "2021-12-29T12:22:35.337Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "City",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:22:38.006Z",
+            "modified": "2021-12-29T12:22:38.587Z"
+        }
+    ],
+    "target": {
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"753.2,670.8 856.6,677.3 866.5,699.9 829,717.5 825.2,739.7 777.7,777.2 704.3,771.1 684.4,766.5 687.4,733.6\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2a95888a-8cd5-467f-a8d8-eeceece9c0bc.json"
+}
