@@ -1,0 +1,44 @@
+---
+canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
+order: 20
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Silvo (Savudrija / Salvore)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:23:14.278Z",
+            "modified": "2021-12-29T12:23:34.313Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "City",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:23:37.373Z",
+            "modified": "2021-12-29T12:23:37.935Z"
+        }
+    ],
+    "target": {
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"883.3685302734375,758.8333740234375 881.8377075195312,786.3880615234375 788.4576416015625,782.56103515625 799.1734008789062,755.0062866210938\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "bdfcccb4-e2cc-49ff-acaa-88e8084bc90c.json"
+}
