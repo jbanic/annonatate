@@ -7,14 +7,14 @@ order: 24
     "body": [
         {
             "type": "TextualBody",
-            "value": "Insula Ursaria (Vrsar / Orsera)",
+            "value": "Insula Ursaria (Sv. Juraj kraj Vrsara / San Giorgio di Orsera)",
             "purpose": "commenting",
             "creator": {
                 "id": "jbanic",
                 "name": "jbanic"
             },
             "created": "2021-12-29T12:27:30.620Z",
-            "modified": "2021-12-29T12:27:40.217Z"
+            "modified": "2021-12-29T12:46:31.503Z"
         },
         {
             "type": "TextualBody",
