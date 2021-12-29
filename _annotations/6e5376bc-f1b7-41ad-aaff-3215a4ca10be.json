@@ -1,0 +1,44 @@
+---
+canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Isteria (Istria)",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T11:11:57.174Z",
+            "modified": "2021-12-29T11:12:07.366Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Region",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T11:12:04.035Z",
+            "modified": "2021-12-29T11:12:04.779Z"
+        }
+    ],
+    "target": {
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"831.636962890625,644.9942016601562 832.3641967773438,677.7214965820312 852.7278442382812,682.8123779296875 916.7278442382812,683.5396118164062 971.2733154296875,693.721435546875 1042.5460205078125,705.3577880859375 1097.8187255859375,698.8123779296875 1128.3641357421875,691.5396118164062 1120.3642578125,660.9942016601562\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "6e5376bc-f1b7-41ad-aaff-3215a4ca10be.json"
+}
