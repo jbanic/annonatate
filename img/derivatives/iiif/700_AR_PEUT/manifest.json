@@ -1,8 +1,9 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/700_AR_PEUT/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -20,7 +21,7 @@
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -29,7 +30,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/TabulaPeutingerianaMillerIstria/full/104,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/700_AR_PEUT/TabulaPeutingerianaMillerIstria/full/104,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -37,30 +38,37 @@
       "width": 1660,
       "items": [
         {
-          "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/700_AR_PEUT/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/700_AR_PEUT/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/TabulaPeutingerianaMillerIstria/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/700_AR_PEUT/TabulaPeutingerianaMillerIstria/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1547,
                 "width": 1660,
                 "service": [
                   {
-                    "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/TabulaPeutingerianaMillerIstria",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/700_AR_PEUT/TabulaPeutingerianaMillerIstria",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/700-ar-peut-700-ar-peut-1-list.json",
+          "type": "Annotation",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
         }
       ]
     }
