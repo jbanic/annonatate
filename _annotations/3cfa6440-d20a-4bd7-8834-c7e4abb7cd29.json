@@ -3,42 +3,42 @@ canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/ca
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Aquileia",
-            "purpose": "supplementing",
+            "created": "2021-12-29T11:05:05.378Z",
             "creator": {
                 "id": "jbanic",
                 "name": "jbanic"
             },
-            "created": "2021-12-29T11:05:05.378Z",
-            "modified": "2021-12-29T11:05:18.422Z"
+            "modified": "2021-12-29T11:05:18.422Z",
+            "purpose": "supplementing",
+            "type": "TextualBody",
+            "value": "Aquileia"
         },
         {
             "type": "TextualBody",
-            "value": "Civitas",
+            "value": "City",
             "purpose": "tagging",
             "creator": {
                 "id": "jbanic",
                 "name": "jbanic"
             },
-            "created": "2021-12-29T11:05:22.583Z",
-            "modified": "2021-12-29T11:05:24.814Z"
+            "created": "2021-12-29T12:00:52.580Z",
+            "modified": "2021-12-29T12:00:56.025Z"
         }
     ],
+    "id": "3cfa6440-d20a-4bd7-8834-c7e4abb7cd29.json",
     "target": {
-        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"122.7,518 63.1,537.6 74.7,580.6 98.7,597.3 98,654 148.2,686.7 226.7,679.5 252.2,654.7 260.2,624.2 252.2,576.2 238.4,567.5 223.1,577.6 204.2,573.3 201.6,556 231.8,542 210,512.9\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3cfa6440-d20a-4bd7-8834-c7e4abb7cd29.json"
+    "type": "Annotation"
 }
