@@ -1,0 +1,44 @@
+---
+canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
+order: 17
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Acervone (Vi\u0161nja Gora)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:19:07.682Z",
+            "modified": "2021-12-29T12:19:15.500Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "City",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:19:18.683Z",
+            "modified": "2021-12-29T12:19:19.188Z"
+        }
+    ],
+    "target": {
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1373.231201171875,618.76318359375 1377.8236083984375,617.9977416992188 1496.462158203125,627.1826782226562 1507.177978515625,654.7374877929688 1370.16943359375,646.3179321289062\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "6aed356b-e8c9-4728-877c-d9bb62df6b34.json"
+}
