@@ -1,0 +1,33 @@
+---
+canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
+order: 13
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Flumen Sauve (River Sava)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:12:39.813Z",
+            "modified": "2021-12-29T12:12:47.314Z"
+        }
+    ],
+    "target": {
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"718.039794921875,512.3711547851562 720.3360595703125,560.592041015625 858.1099243164062,555.234130859375 881.837646484375,540.6913452148438 864.233154296875,513.1365966796875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5592a57c-fd4f-443b-b182-1e885bf4c50c.json"
+}
