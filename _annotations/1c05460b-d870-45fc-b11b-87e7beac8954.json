@@ -1,0 +1,44 @@
+---
+canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
+order: 22
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Insula Curica (Krk / Veglia)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:26:19.485Z",
+            "modified": "2021-12-29T12:26:26.612Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Island",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-29T12:26:29.601Z",
+            "modified": "2021-12-29T12:26:30.170Z"
+        }
+    ],
+    "target": {
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1381.5,875.2 1376.8,919.2 1404.1,933.8 1438.6,926.7 1474.1,970.3 1516.8,929 1549.5,907.2 1565.5,886.1 1540.1,875.9 1462.2,871.6\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1c05460b-d870-45fc-b11b-87e7beac8954.json"
+}
