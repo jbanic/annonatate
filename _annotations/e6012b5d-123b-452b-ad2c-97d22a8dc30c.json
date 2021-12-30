@@ -3,31 +3,42 @@ canvas: "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/ca
 order: 15
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Flumen Arsia (River Ra\u0161a / Arsia)",
-            "purpose": "commenting",
+            "created": "2021-12-29T12:18:00.163Z",
             "creator": {
                 "id": "jbanic",
                 "name": "jbanic"
             },
-            "created": "2021-12-29T12:18:00.163Z",
-            "modified": "2021-12-29T12:18:10.040Z"
+            "modified": "2021-12-29T12:18:10.040Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Flumen Arsia (River Ra\u0161a / Arsia)"
+        },
+        {
+            "type": "TextualBody",
+            "value": "River",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jbanic",
+                "name": "jbanic"
+            },
+            "created": "2021-12-30T10:05:10.194Z",
+            "modified": "2021-12-30T10:05:12.152Z"
         }
     ],
+    "id": "e6012b5d-123b-452b-ad2c-97d22a8dc30c.json",
     "target": {
-        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1",
+        "dcterms:isPartOf": {
+            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1020.376953125,594.2700805664062 1022.6732177734375,634.8367919921875 1056.351318359375,640.9600830078125 1139.015625,639.4292602539062 1158.15087890625,629.4789428710938 1152.79296875,619.5286254882812 1126.76904296875,604.2203979492188 1062.4744873046875,603.4550170898438\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://jbanic.github.io/annonatate/img/derivatives/iiif/700_AR_PEUT/canvas/700_AR_PEUT-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e6012b5d-123b-452b-ad2c-97d22a8dc30c.json"
+    "type": "Annotation"
 }
