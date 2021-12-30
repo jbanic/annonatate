@@ -11,21 +11,21 @@ order: 3
                 "id": "jbanic",
                 "name": "jbanic"
             },
-            "modified": "2021-12-29T11:08:30.559Z",
+            "modified": "2021-12-30T10:04:55.862Z",
             "purpose": "supplementing",
             "type": "TextualBody",
-            "value": "Alvona (present-day Labin / Albona)"
+            "value": "Alvona (Labin / Albona)"
         },
         {
-            "type": "TextualBody",
-            "value": "City",
-            "purpose": "tagging",
+            "created": "2021-12-29T12:01:33.924Z",
             "creator": {
                 "id": "jbanic",
                 "name": "jbanic"
             },
-            "created": "2021-12-29T12:01:33.924Z",
-            "modified": "2021-12-29T12:01:35.671Z"
+            "modified": "2021-12-29T12:01:35.671Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "City"
         }
     ],
     "id": "fc89c2d7-7bf0-4697-ae71-fdb946b453c5.json",
